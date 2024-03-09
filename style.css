@@ -1,0 +1,313 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ }
+
+ header {
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+ }
+
+ .text-1 {
+     margin-top: 100px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 500;
+     margin-left: 100px;
+ }
+.heading2, .heading3, .text-4, .text-5{
+    margin-top: 100px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 500;
+}
+ .text1-box {
+     background-color: #FFFFFF;
+     padding: 10px;
+     margin-right: 10px;
+     border-radius: 8px;
+     border-style: solid;
+     border-color: #ff0087;
+     border-width: 1px;
+     color: #ff0087;
+     cursor: pointer;
+     font-size: 14px;
+
+ }
+
+ .smallpanda {
+     border-radius: 5px;
+     padding-inline-end: 0px;
+ }
+
+ .pandapic {
+     position: absolute;
+     top: 20px;
+     margin-left: 900px;
+ }
+
+
+ .three {
+     margin-left: 20px;
+     margin-top: 20px
+ }
+
+ .logoheading {
+     display: inline;
+     color: #ff0087;
+     font-size: 20px;
+     margin-right: 800px;
+ }
+
+ .one {
+     border-style: solid;
+     height: 300px;
+     width: 300px;
+     border-width: 2px;
+     border-radius: 5px;
+     border-color: #ff0087;
+     color: #ff0087;
+     padding: 5px;
+     margin-right: 20px;
+ }
+
+ .two {
+     border-style: solid;
+     height: 300px;
+     width: 300px;
+     border-width: 2px;
+     border-radius: 5px;
+     border-color: #ff0087;
+     background-color: #ff0087;
+     color: white;
+     padding: 5px;
+ }
+
+ .text1-box {
+
+     border-radius: 5px;
+     border-color: #333333;
+     border-width: 1px;
+     padding: 15px;
+     width: 500px;
+     margin-top: 15px;
+     margin-left: 100px;
+ }
+ .input-field {
+    padding: 10px;
+    padding-right: 120px;
+ }
+ .btn3 {
+    border-style: solid;
+     height: 300px;
+     width: 300px;
+     border-width: 2px;
+     border-radius: 5px;
+     border-color: #ff0087;
+     background-color: #ff0087;
+     color: white;
+     padding: 5px;
+     margin-left: 2px;
+ }
+.label{
+    margin-left: 5px;
+}
+.text-2 {
+    background-color: white;
+    position: absolute;
+    border: solid;
+    border-radius: 20px;
+    height: 300px;
+    width: 520px;
+    border-width: 1px;
+    top: 700px;
+    left: 60px;
+    padding: 20px;
+}
+.btn4, .btn5 {
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #ff0087;
+    background-color: #ff0087;
+    color: white;
+    padding: 5px;
+}
+.heading3 {
+    margin-top: 200px;
+}
+ /*....... All cities...... */
+ .cities {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cities>img {
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 9px;
+}
+
+.cities>span {
+    position: absolute;
+    font-size: 20px;
+}
+
+.karachi,
+.islamabad,
+.lahore,
+.faisalabad,
+.rawalpindi,
+.abbottabad,
+.bahawalpur,
+.dera-ghazi-khan,
+.gujranwala,
+.gujrat,
+.hyderabad,
+.jhelum,
+.kamoke,
+.larkana,
+.mangla,
+.mardan,
+.multan,
+.muree,
+.okara,
+.pano-aqil,
+.peshawar,
+.quetta,
+.rahim-yar-khan,
+.sadiqabad,
+.sahiwal,
+.sargodha,
+.sheikhupura,
+.sialkot,
+.sukkur,
+.wah-cantt {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.karachi,
+.islamabad,
+.lahore,
+.faisalabad {
+    top: 1350px;
+}
+
+.rawalpindi,
+.abbottabad,
+.bahawalpur,
+.dera-ghazi-khan {
+    top: 1630px;
+}
+
+.gujranwala,
+.gujrat,
+.hyderabad,
+.jhelum {
+    top: 1920px;
+}
+
+.kamoke,
+.larkana,
+.mangla,
+.mardan {
+    top: 2210px;
+}
+
+.multan,
+.muree,
+.okara,
+.pano-aqil {
+    top: 2498px;
+}
+
+.peshawar,
+.quetta,
+.rahim-yar-khan,
+.sadiqabad {
+    top: 2786px;
+}
+
+.sahiwal,
+.sargodha,
+.sheikhupura,
+.sialkot {
+    top: 3076px;
+}
+
+.sukkur,
+.wah-cantt {
+    top: 3366px;
+}
+
+.islamabad, .rawalpindi, .gujranwala, .kamoke, .multan, .peshawar, .sahiwal, .sukkur {
+    left: 55px;
+}
+
+.karachi, .abbottabad, .gujrat, .larkana, .muree, .quetta, .sargodha, .wah-cantt {
+    left: 375px;
+}
+
+.lahore, .bahawalpur, .hyderabad, .mangla, .okara, .rahim-yar-khan, .sheikhupura {
+    left: 700px;
+}
+
+.faisalabad, .dera-ghazi-khan, .jhelum, .mardan, .pano-aqil, .sadiqabad, .sialkot {
+    left: 1020px;
+}
+
+ /*.......next .......*/
+
+
+ .heading5-1>p {
+    width: 400px;
+}
+
+.heading5-1 {
+    background-color: #ff0087;
+    color: #FFFFFF;
+    border: solid;
+    border-radius: 20px;
+    height: 300px;
+    width: 1020px;
+    border-width: 1px;
+    padding: 50px;
+}
+
+.home-foodpanda-app {
+    position: absolute;
+    top: 3540px;
+    left: 500px;
+}
+
+.fa-instagram {
+    margin-left: 850px;
+}
+
+.fa-facebook {
+    margin-left: 10px;
+}
+
+.descriptive1 {
+    background-color: white;
+    position: absolute;
+    border: solid;
+    border-radius: 20px;
+    height: 170px;
+    width: 520px;
+    border-width: 1px;
+    top: 4400px;
+    left: 60px;
+    padding: 20px;
+}
+
+.heading8 {
+    margin-top: 100px;
+}
